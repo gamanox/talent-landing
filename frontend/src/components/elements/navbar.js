@@ -31,9 +31,9 @@ const Navbar = ({ navbar, pageContext }) => {
             >
               <Image
                 placeholder="none"
-                style={{ width: "112px" }}
+                style={{ width: "auto", height: "100%" }}
                 media={navbar.logo}
-                className="h-8 w-auto object-contain"
+                className="h-8 w-auto "
               />
             </Link>
             {/* List of links on desktop */}
